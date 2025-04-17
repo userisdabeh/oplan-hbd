@@ -22,3 +22,38 @@
     font-weight: 700;
     src: url('/fonts/plus-jakarta-sans-v8-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
+
+body {
+    background-color: var(--color-timberwolf);
+    color: var(--color-charcoal);
+    margin: 0;
+    padding: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1.125rem;
+    font-size: clamp(1.125rem, 0.9857142857142858rem + 0.5714285714285714vw, 1.5rem);
+    text-transform: uppercase;
+}
+h1, h2, h3 {
+    margin: 0;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+.buttons {
+    border: 1.5px solid var(--color-slate-gray);
+    border-radius: 5px;
+}

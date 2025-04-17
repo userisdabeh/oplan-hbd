@@ -1,0 +1,20 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: grid;
+    place-items: center;
+}
+
+.button--start {
+    padding: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+.button--start:hover {
+    background-color: var(--color-slate-gray);
+    color: var(--color-timberwolf);
+}
+  
